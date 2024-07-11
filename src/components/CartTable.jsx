@@ -38,9 +38,9 @@ const CartTable = () => {
                         </div>
                     </div>
 
-                    <MDBBadge pill light color='success'>
+                    {/* <MDBBadge pill light color='success'>
                         Active
-                    </MDBBadge>
+                    </MDBBadge> */}
                 </MDBListGroupItem>
 
                 <MDBListGroupItem className='d-flex justify-content-between align-items-center'>
@@ -51,17 +51,26 @@ const CartTable = () => {
                             <div className='text-muted'>john.doe@gmail.com</div>
                         </div>
                     </div>
-                    <MDBDropdown>
-                        <MDBDropdownToggle color='light'>1</MDBDropdownToggle>
-                        <MDBDropdownMenu>
-                            <MDBDropdownItem link>1</MDBDropdownItem>
-                            <MDBDropdownItem link>2</MDBDropdownItem>
-                            <MDBDropdownItem link>3</MDBDropdownItem>
-                        </MDBDropdownMenu>
-                    </MDBDropdown>
-                    <MDBBadge pill light color='primary'>
+                    <div className="d-flex">
+                        <div className="div p-2">
+                            <MDBDropdown>
+                                <MDBDropdownToggle color='light' >1</MDBDropdownToggle>
+                                <MDBDropdownMenu>
+                                    <MDBDropdownItem link>1</MDBDropdownItem>
+                                    <MDBDropdownItem link>2</MDBDropdownItem>
+                                    <MDBDropdownItem link>3</MDBDropdownItem>
+                                </MDBDropdownMenu>
+                            </MDBDropdown>
+                        </div>
+
+                        <div className="div flex-column ms-3">
+                            <div className='text-start fw-bold'>$460.00</div>
+                            <div className='text-muted'>$460.00 / per item</div>
+                        </div>
+                    </div>
+                    {/* <MDBBadge pill light color='primary'>
                         Onboarding
-                    </MDBBadge>
+                    </MDBBadge> */}
                 </MDBListGroupItem>
                 <MDBListGroupItem className='d-flex justify-content-between align-items-center'>
                     <div className="d-flex">
@@ -71,17 +80,26 @@ const CartTable = () => {
                             <div className='text-muted'>john.doe@gmail.com</div>
                         </div>
                     </div>
-                    <MDBDropdown>
-                        <MDBDropdownToggle color='light'>1</MDBDropdownToggle>
-                        <MDBDropdownMenu>
-                            <MDBDropdownItem link>1</MDBDropdownItem>
-                            <MDBDropdownItem link>2</MDBDropdownItem>
-                            <MDBDropdownItem link>3</MDBDropdownItem>
-                        </MDBDropdownMenu>
-                    </MDBDropdown>
-                    <MDBBadge pill light color='warning'>
+                    <div className="d-flex">
+                        <div className="div p-2">
+                            <MDBDropdown>
+                                <MDBDropdownToggle color='light' >1</MDBDropdownToggle>
+                                <MDBDropdownMenu>
+                                    <MDBDropdownItem link>1</MDBDropdownItem>
+                                    <MDBDropdownItem link>2</MDBDropdownItem>
+                                    <MDBDropdownItem link>3</MDBDropdownItem>
+                                </MDBDropdownMenu>
+                            </MDBDropdown>
+                        </div>
+
+                        <div className="div flex-column ms-3">
+                            <div className='text-start fw-bold'>$460.00</div>
+                            <div className='text-muted'>$460.00 / per item</div>
+                        </div>
+                    </div>
+                    {/* <MDBBadge pill light color='warning'>
                         Awaiting
-                    </MDBBadge>
+                    </MDBBadge> */}
                 </MDBListGroupItem>
             </MDBListGroup>
         </>
