@@ -3,6 +3,7 @@ import './App.css';
 import React from 'react';
 import CartTable from "./components/CartTable";
 import PromoCode from "./components/PromoCode";
+import CheckOut from "./components/CheckOut";
 
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
               <CartTable></CartTable>
             </div>
             <div class="col">
-              <PromoCode/>
+              <PromoCode />
+              <br/>
+              <CheckOut/>
             </div>
           </div>
         </div>
