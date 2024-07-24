@@ -4,6 +4,7 @@ import React from 'react';
 import CartTable from "./components/CartTable";
 import PromoCode from "./components/PromoCode";
 import CheckOut from "./components/CheckOut";
+import Recommended from "./components/Recommended";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
               <CheckOut/>
             </div>
           </div>
+          <Recommended></Recommended>
         </div>
       </main>
     </div>
