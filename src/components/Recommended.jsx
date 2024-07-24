@@ -6,7 +6,7 @@ const Recommended = () => {
     return (
         <>
             <div className="d-flex align-items-start flex-column bd-highlight">
-                <div className="h1 mt-5">Recommended Items </div>
+                <div className="h2 mt-5">Recommended Items </div>
             </div>
 
             <div class="row row-cols-1 row-cols-md-4 g-4 mt-1">

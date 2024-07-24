@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBListGroup, MDBListGroupItem, MDBBtn, MDBInput, MDBBadge, MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem } from 'mdb-react-ui-kit';
+import { MDBListGroup, MDBListGroupItem, MDBBtn} from 'mdb-react-ui-kit';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 
 const CheckOut = () => {
@@ -37,7 +37,7 @@ const CheckOut = () => {
                         </div>
                     </div>
 
-                    <div class="d-flex align-items-center flex-column bd-highlight mb-3" >
+                    <div class="d-flex align-items-center flex-column bd-highlight mb-4 mt-4" >
                         <MDBBtn color='light' rippleColor='dark'>
                             Add more items
                         </MDBBtn>
